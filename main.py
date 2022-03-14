@@ -1,3 +1,5 @@
+##READ THIS 
+
 # install pyaudio by using any of the two commands below
 # 1 - 'pip install pyaudio' (if you are using versions 3.7 or below)
 # 2 - 'py -m pipwin install pyaudio' (if you are using higher python version like 3.9 or above, also make sure the pipwin package manager is installed first using the 'pip install pipwin')
@@ -6,9 +8,10 @@
 # pyttsx3 - 'pip install pyttsx3'
 # speech_recognition - 'pip install speechRecognition'
 # datetime - will be pre installed in the system, so just import it
+# playonyt function from the pywhatkit module
+# smtplib module - built-in with the python version
+# wikipedia library to be imported
 
-
-from django.dispatch import receiver
 import pyttsx3
 import speech_recognition as spr
 import datetime
@@ -17,7 +20,7 @@ import wikipedia
 from pywhatkit import playonyt
 import smtplib
 
-# enter your name
+# Change your name before running the program
 name = "Gautham"
 voice_engine = pyttsx3.init('sapi5')
 voices = voice_engine.getProperty('voices')
@@ -148,7 +151,7 @@ if __name__ == "__main__":
                 exit
             
             ## email sending features require to enable IMAP/POP in your GMAIL account settings and also disable some vulnerability settings in your google account which is not recommended. So I have commented out the email sending feature, if you want to test feel free to uncomment the below elif statement and try it out.
-            
+
             # elif "email" in cmd:
             #     try:    
             #         print("To whom do you want to send the email to ? ")
