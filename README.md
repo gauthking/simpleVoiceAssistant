@@ -26,4 +26,4 @@ Say your request having 'youtube' keyword inside it.
 To use this feature you have to uncomment the lines 155-170 and make sure you enable the IMAP/POP settings in your GMAIL settings and also enable 'Allow less secure apps settings in the google account settings'
 
 
-*This code is still in development, more things are yet to be added to the code. 
+*This code is still in development, more things are yet to be added to the code.*
