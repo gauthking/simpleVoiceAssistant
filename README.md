@@ -5,7 +5,7 @@
 Please change your name in the code before you proceed. 
 Say 'Ruby' to initialize the Voice Assistant.
 
-## Say 'hi'
+## Say 'how are you'
 
 Simple greeting command
 
@@ -21,5 +21,9 @@ To get information about something, say your request speech having 'wikpedia' ke
 
 Say your request having 'youtube' keyword inside it. 
 
-## 
+## Email function 
 
+To use this feature you have to uncomment the lines 155-170 and make sure you enable the IMAP/POP settings in your GMAIL settings and also enable 'Allow less secure apps settings in the google account settings'
+
+
+*This code is still in development, more things are yet to be added to the code. 
